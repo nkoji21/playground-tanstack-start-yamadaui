@@ -1,0 +1,10 @@
+{
+  "name": "@workspaces/theme",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {},
+  "dependencies": { "@yamada-ui/react": "^2" },
+  "devDependencies": {},
+  "exports": { ".": "./src/index.ts" }
+}

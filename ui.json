@@ -6,5 +6,6 @@
   "monorepo": true,
   "path": "./workspaces/ui",
   "format": { "enabled": true },
-  "lint": { "enabled": true }
+  "lint": { "enabled": true },
+  "theme": { "path": "./workspaces/theme" }
 }

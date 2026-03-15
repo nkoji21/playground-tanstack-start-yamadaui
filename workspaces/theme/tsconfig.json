@@ -21,6 +21,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "index.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "config.ts", "index.ts"],
   "exclude": ["node_modules"]
 }
