@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { Button } from 'workspaces/ui'
+import { Button } from '@workspaces/ui'
 
 export const Route = createFileRoute('/')({ component: App })
 

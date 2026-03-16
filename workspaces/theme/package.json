@@ -6,5 +6,5 @@
   "scripts": {},
   "dependencies": { "@yamada-ui/react": "^2" },
   "devDependencies": {},
-  "exports": { ".": "./src/index.ts" }
+  "exports": { ".": "./index.ts" }
 }
