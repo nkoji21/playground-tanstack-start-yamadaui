@@ -11,9 +11,6 @@
   },
   "devDependencies": { "@types/react": "^19", "@types/react-dom": "^19" },
   "exports": {
-    ".": "./src/index.ts",
-    "./components/*": "./src/components/*/index.ts",
-    "./hooks/*": "./src/hooks/*/index.ts",
-    "./providers/*": "./src/providers/*/index.ts"
+    ".": "./index.ts"
   }
 }
