@@ -2,7 +2,6 @@ import { HeadContent, Scripts, createRootRoute } from "@tanstack/react-router"
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools"
 import { TanStackDevtools } from "@tanstack/react-devtools"
 
-import appCss from "../styles.css?url"
 import { UIProvider } from "@workspaces/ui"
 
 export const Route = createRootRoute({
@@ -17,12 +16,6 @@ export const Route = createRootRoute({
       },
       {
         title: "TanStack Start Starter",
-      },
-    ],
-    links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
       },
     ],
   }),
